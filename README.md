@@ -1,4 +1,6 @@
-# ![contacticon_small.png](assets%2Ficon%2Fcontacticon_small.png) WMC Test - Contacts
+# ![contacticon_small.png](resources%2Fassets%2Ficon%2Fcontacticon_small.png) WMC Test - Contacts
+
+---
 
 Schreiben Sie eine App, die die Favoriten von Kontakten verwalten kann.
 Die Kontakte sind im Verzeichnis assets/data/dataset.json als Json Datei hinterlegt.
@@ -15,7 +17,7 @@ Die App sollte ähnlich den folgenden Screenshots sein!
   Das Minus am rechten Rand ist ein Icon und soll zum Löschen des Eintrages führen.
 
 
-* ListTile soll StateLess bleiben, implementieren Sie für Änderungen eine Callback Function.
+* **Bonus** ListTile als eigenes Widget soll StateLess bleiben, implementieren Sie für Änderungen eine Callback Function.
 
 
 * Es gibt keine doppelten Einträge.
@@ -46,7 +48,10 @@ ein *ModalProgressHUD* darübergelegt werden.
 Ist die vollständige Kapselung der Klasse Person. Diese besitzt eine **statische** Methode
 readData, welche die gegebene Json Datei lesen soll. Zurückgeliefert wird eine Liste von **Person**.
 
-# Bonus
+---
+
+
+# Erweiterung
 * Wurde ein Datensatz nicht hinzugefügt weil er schon vorhanden war, soll das auf der Hauptseite in der Snackbar angezeigt werden.
 * Die Snackbar soll nach 2 Sekunden wieder verschwinden.
 
@@ -54,10 +59,12 @@ readData, welche die gegebene Json Datei lesen soll. Zurückgeliefert wird eine 
 * Fügen Sie auf der Hauptseite einen weiteren Button in der AppBar hinzu, welcher dem User 
 erlaubt die PersonTiles nach Vorname zu sortieren.
 
-# ----------------------------------------------------
+* Geben Sie der App ein Icon! (assets/icon/contacticon.png)
+
+---
+
 # Inportant Infos ..........
-Alle Files und die Grundkonfiguration sind gegeben. Vorgeschlagene Flutter Widgets sind bereits
-in der pubspec.yaml Datei eingetragen. 
+Passen Sie die pubspec.yaml an. 
 
 
 # Dropdown Button
@@ -67,4 +74,5 @@ https://api.flutter.dev/flutter/material/DropdownButton-class.html
 https://api.flutter.dev/flutter/material/ListTile-class.html
 
 # Modal Progress HUD
+https://api.flutter.dev/flutter/dart-async/Future/Future.delayed.html
 https://pub.dev/packages/modal_progress_hud_nsn
