@@ -2,6 +2,8 @@
 
 ---
 
+---
+
 Schreiben Sie eine App, die die Favoriten von Kontakten verwalten kann.
 Die Kontakte sind im Verzeichnis assets/data/dataset.json als Json Datei hinterlegt.
 Die App sollte ähnlich den folgenden Screenshots sein! 
